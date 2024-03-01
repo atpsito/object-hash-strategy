@@ -1,0 +1,68 @@
+{
+  "id": "1",
+  "name": "John",
+  "age": "26",
+  "email": "john2@gmail.com",
+  "address": {
+    "city": "New York",
+    "state": "NY"
+  },
+  "phone": [
+    {
+      "id": "1",
+      "type": "work",
+      "number": "212 555-1234"
+    },
+    {
+      "id": "2",
+      "type": "fax",
+      "number": "646 555-4567"
+    }
+  ],
+  "owns": [
+    {
+      "id": "1",
+      "type": "car",
+      "model": "Honda"
+    },
+    {
+      "id": "2",
+      "type": "house",
+      "model": "Colonial"
+    }
+  ],
+  "friends": [
+    {
+      "id": "1",
+      "name": "Jane",
+      "phone": [
+        {
+          "id": "1",
+          "type": "home",
+          "number": "212 555-1234"
+        },
+        {
+          "id": "2",
+          "type": "fax",
+          "number": "646 555-4567"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Alice",
+      "phone": [
+        {
+          "id": "1",
+          "type": "home",
+          "number": "212 555-1234"
+        },
+        {
+          "id": "2",
+          "type": "fax",
+          "number": "646 555-4567"
+        }
+      ]
+    }
+  ]
+}

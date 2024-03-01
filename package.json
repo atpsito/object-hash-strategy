@@ -1,0 +1,20 @@
+{
+  "name": "hash-object-strategy",
+  "version": "1.0.0",
+  "description": "Hash object strategy",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon src/index.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^20.9.4",
+    "@types/object-hash": "^3.0.6",
+    "nodemon": "^3.0.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.3.2"
+  },
+  "dependencies": {
+    "object-hash": "^3.0.0"
+  }
+}
