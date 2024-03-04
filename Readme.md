@@ -14,6 +14,12 @@ This library simplifies comparing hashes of complex objects, even those with nes
 npm install [library-name]
 ```
 
+or
+
+```bash
+yarn add [library-name]
+```
+
 **Key Functions:**
 
 **1. Hash Creation:**
