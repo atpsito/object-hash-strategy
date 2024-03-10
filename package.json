@@ -1,11 +1,10 @@
 {
   "name": "hash-object-strategy",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Hash object strategy",
   "main": "./dist/bundle.cjs.js",
   "module": "./dist/bundle.esm.js",
   "types": "./dist/bundle.d.ts",
-  "type": "module",
   "license": "MIT",
   "files": [
     "dist"

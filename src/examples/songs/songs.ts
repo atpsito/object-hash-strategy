@@ -1,6 +1,6 @@
-import { createHash, compareHashes } from "../../functions/hash.ts";
-import { getDataFromCompare } from "../../functions/hash.ts";
-import { HashSchema } from "../../types/hash.types.ts";
+import { createHash, compareHashes } from "../../functions/hash";
+import { getDataFromCompare } from "../../functions/hash";
+import { HashSchema } from "../../types/hash.types";
 
 const data = {
   id: 1,

@@ -1,9 +1,9 @@
-import data from "./data/test-data.json" assert { type: "json" };
-import data2 from "./data/test-data-changed.json" assert { type: "json" };
+import data from "./data/test-data.json";
+import data2 from "./data/test-data-changed.json";
 
-import { createHash, compareHashes } from "../../functions/hash.ts";
-import { getDataFromCompare } from "../../functions/hash.ts";
-import { HashSchema } from "../../types/hash.types.ts";
+import { createHash, compareHashes } from "../../functions/hash";
+import { getDataFromCompare } from "../../functions/hash";
+import { HashSchema } from "../../types/hash.types";
 
 const schema: HashSchema<typeof data> = {
   hash: true,
