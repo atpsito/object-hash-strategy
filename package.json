@@ -30,5 +30,22 @@
   },
   "dependencies": {
     "object-hash": "^3.0.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atpsito/hash-object-strategy.git"
+  },
+  "keywords": [
+    "hash",
+    "comparison",
+    "object",
+    "changes",
+    "detection",
+    "integrity"
+  ],
+  "author": "Alexander Tigselema",
+  "bugs": {
+    "url": "https://github.com/atpsito/hash-object-strategy/issues"
+  },
+  "homepage": "https://github.com/atpsito/hash-object-strategy#readme"
 }
