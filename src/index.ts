@@ -1,4 +1,4 @@
 // Export functions
-export * from "./functions/hash";
+export * from "./functions/hash.ts";
 // Export types
-export * from "./types/hash.types";
+export * from "./types/hash.types.ts";

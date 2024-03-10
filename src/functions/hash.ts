@@ -1,7 +1,7 @@
 import hash from "object-hash";
-import { Hash, HashCompareResponse } from "../types/hash.types";
-import { HashResponse, HashSchema } from "../types/hash.types";
-import { accessObjectDepp } from "../utils/common.utils";
+import { Hash, HashCompareResponse } from "../types/hash.types.ts";
+import { HashResponse, HashSchema } from "../types/hash.types.ts";
+import { accessObjectDepp } from "../utils/common.utils.ts";
 
 /**
  * Creates a hash object based on the provided target and schema.
