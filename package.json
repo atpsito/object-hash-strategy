@@ -1,7 +1,7 @@
 {
   "name": "object-hash-strategy",
   "version": "1.0.1",
-  "description": "Hash object strategy",
+  "description": "object-hash-strategy is a lightweight npm package designed to simplify the comparison of two objects with similar structures. With this powerful tool, developers can effortlessly identify changes between objects, making data management in JavaScript projects a breeze.",
   "main": "./dist/bundle.cjs.js",
   "module": "./dist/bundle.esm.js",
   "types": "./dist/bundle.d.ts",
