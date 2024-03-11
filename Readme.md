@@ -11,13 +11,13 @@ This library simplifies comparing hashes of complex objects, even those with nes
 **Installation:**
 
 ```bash
-npm install hash-object-strategy
+npm install object-hash-strategy
 ```
 
 or
 
 ```bash
-yarn add hash-object-strategy
+yarn add object-hash-strategy
 ```
 
 **Key Functions:**
@@ -66,7 +66,7 @@ const data = {
 **Example:**
 
 ```javascript
-import { createHash, HashSchema } from "hash-object-strategy";
+import { createHash, HashSchema } from "object-hash-strategy";
 
 const schema: HashSchema<typeof newData> = {
   hash: true,

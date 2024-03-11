@@ -1,5 +1,5 @@
 {
-  "name": "hash-object-strategy",
+  "name": "object-hash-strategy",
   "version": "1.0.1",
   "description": "Hash object strategy",
   "main": "./dist/bundle.cjs.js",
@@ -32,7 +32,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/atpsito/hash-object-strategy.git"
+    "url": "git+https://github.com/atpsito/object-hash-strategy.git"
   },
   "keywords": [
     "hash",
@@ -44,7 +44,7 @@
   ],
   "author": "Alexander Tigselema",
   "bugs": {
-    "url": "https://github.com/atpsito/hash-object-strategy/issues"
+    "url": "https://github.com/atpsito/object-hash-strategy/issues"
   },
-  "homepage": "https://github.com/atpsito/hash-object-strategy#readme"
+  "homepage": "https://github.com/atpsito/object-hash-strategy#readme"
 }
