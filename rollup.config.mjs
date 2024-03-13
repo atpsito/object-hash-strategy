@@ -1,6 +1,7 @@
 import commonjs from "@rollup/plugin-commonjs";
 import esbuild from "rollup-plugin-esbuild";
 import dts from "rollup-plugin-dts";
+import terser from '@rollup/plugin-terser';
 
 import globalPackageJSON from "./package.json" assert { type: "json" };
 
@@ -35,7 +36,8 @@ const bundleConfig = packageJSON => {
         target: "ES2016",
         minify: false,
         tsconfig: "./tsconfig.json" // default
-      })
+      }),
+      terser()
     ],
     external
   };
